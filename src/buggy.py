@@ -1,6 +1,6 @@
 def calculate_total(price, tax):
     # Intentional bug: 'tax_rate' is undefined (should be 'tax')
-    total = price + (price * tax_rate)
+    total = price + (price * tax)
     return total
 
 if __name__ == "__main__":
